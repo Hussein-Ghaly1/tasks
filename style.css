@@ -1,0 +1,92 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.first {
+    margin: 0;
+    height: 60vh;
+    width: 100%;
+    color: #90633a;
+    background-image: url("Assets/beach.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.head{
+    text-align: center;
+    margin: auto;
+    position: absolute;
+        left: 50%;
+        top: 25%;
+        transform: translate(-50%,-50%);
+}
+
+/* h1 {
+     position: absolute;
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+} */
+
+.button
+{
+    display: block;
+    margin-top: 50px;
+    width: 150px;
+    text-align: center;
+    padding: 20px;
+    border: solid 2px #90633a;
+    border-radius: 15px ;
+    text-decoration: none;
+    color: #90633a;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+}
+p {
+    margin: 0;
+}
+
+.second {
+    margin: 0;
+    width: 100%;
+    height: calc(40vh / 3);
+    background-color: #926339;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.third {
+    margin: 0;
+    width: 100%;
+    height: calc(40vh / 3);
+    background-color: white;
+    padding: 20px;
+    color: #90633a;
+    text-align: center;
+}
+.flex {
+    width: 100%;
+    height: calc(40vh / 3);
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.brown {
+    width: calc(100% / 3);
+    background-color: #90633a;
+    color: white;
+    padding: 20px;
+}
+
+.white {
+    width: calc(100% / 3);
+    background-color: white;
+    color: #90633a;
+    padding: 20px;
+}
+
